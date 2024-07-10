@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "preLaunchTask": "npm: dev",
+            "request": "launch",
+            "sourceMaps": true,
+            "name": "Debug",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}",
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ]
+        }
+    ]
+}

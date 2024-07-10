@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "sourceMap": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@components/*": [
+                "components/*",
+            ],
+            "@routes/*": [
+                "routes/*",
+            ],
+            "@utilities/*": [
+                "utilities/*",
+            ],
+            "@hooks/*": [
+                "hooks/*",
+            ],
+            "@apis/*": [
+                "apis/*",
+            ],
+            "@redux/*": [
+                "redux/*",
+            ],
+            "@styles/*": [
+                "styles/*",
+            ]
+        },
+        "jsx": "react"
+    },
+    "include": [
+        "src/**/*.js",
+        "src/**/*.jsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
